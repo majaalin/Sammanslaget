@@ -13,7 +13,6 @@
 
 body {
   background-color: white;
-  height: 400vh;
 }
 
 .button-wrapper {
@@ -68,14 +67,6 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
-
-  h2  {
-    position: absolute;
-    top: 0;
-    padding: 30px;
-    color: $dark-gray;
-
-  }
 }
 
 .work + .explanation {
