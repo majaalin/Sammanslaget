@@ -3,6 +3,7 @@ import '../styles/index.scss';
 // const pil = document.querySelector('.button-wrapper');
 const flip = document.querySelector('.flip-card-inner');
 const affisch = document.querySelectorAll('.affisch');
+const links = document.querySelectorAll('.nav-link');
 
 // pil.addEventListener('click', (event) => {
 //   flip.classList.toggle('flip-card-inner-hover');
@@ -18,5 +19,14 @@ affisch.forEach((element) =>
     let src = element.getAttribute('src');
     // element.setAttribute('src', mainAffischSrc);
     document.querySelector('#hej').setAttribute('src', src);
+  })
+);
+
+links.forEach((element) =>
+  element.addEventListener('click', (event) => {
+    links.forEach((element) => {
+      element.classList.remove('active');
+    });
+    element.classList.add('active');
   })
 );

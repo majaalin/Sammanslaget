@@ -40,10 +40,15 @@ span {
   line-height: 48px;
 }
 
-span:hover {
+.active, span:hover {
   padding-bottom: 12px;
   border-bottom: 10px solid $gray;
   line-height: 48px;
+}
+
+.ancor {
+  position: absolute;
+  z-index: -1;
 }
 
 
