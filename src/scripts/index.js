@@ -5,10 +5,6 @@ const flip = document.querySelector('.flip-card-inner');
 const affisch = document.querySelectorAll('.affisch');
 const links = document.querySelectorAll('.nav-link');
 
-// pil.addEventListener('click', (event) => {
-//   flip.classList.toggle('flip-card-inner-hover');
-// });
-
 affisch.forEach((element) =>
   element.addEventListener('click', (event) => {
     affisch.forEach((element) => {
@@ -18,7 +14,7 @@ affisch.forEach((element) =>
     // let mainAffischSrc = document.getElementById('hej').getAttribute('src');
     let src = element.getAttribute('src');
     // element.setAttribute('src', mainAffischSrc);
-    document.querySelector('#hej').setAttribute('src', src);
+    document.querySelector('#tja').setAttribute('src', src);
   })
 );
 
