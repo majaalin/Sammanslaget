@@ -1,5 +1,4 @@
 import '../styles/index.scss';
-import SmoothScroll from 'smooth-scroll';
 
 // const pil = document.querySelector('.button-wrapper');
 const flip = document.querySelector('.flip-card-inner');
