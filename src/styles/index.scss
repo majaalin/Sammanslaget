@@ -73,6 +73,10 @@ a {
   justify-content: space-around;
 }
 
+.work + .maja {
+  display: block;
+}
+
 @media screen and (max-width: 900px) { 
   .work {
     height: auto;
