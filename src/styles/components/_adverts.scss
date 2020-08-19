@@ -1,0 +1,44 @@
+.adverts {
+
+.flip-card {
+    cursor: zoom-in;
+    background-color: transparent;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  }
+  
+  .test {
+    height: 100%;
+    width: 100%;
+    transition: all 0.8s;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  
+  .rotate {
+    transform: rotateY(180deg);
+  }
+  
+  .bibliotek {
+    display: flex;
+    flex-direction: column;
+  
+    img {
+      width: 100px;
+      margin: 20px 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    }
+  }
+  
+  .remove {
+    opacity: 0.2;
+  }
+  
+  .show {
+    display: block;
+  }
+}

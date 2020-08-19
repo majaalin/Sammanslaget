@@ -1,0 +1,90 @@
+@import 'node_modules/sanitize.css/sanitize';
+@import 'project/_project';
+@import 'components/_components';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  height: 400vh;
+}
+
+.button-wrapper {
+  background-color: $red;
+  border-radius: 3px;
+  margin: 20px 25px;
+  padding: 10px 40px;
+}
+
+p {
+  color: white;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+span {
+  padding-bottom: 12px;
+  border-bottom: 10px solid transparent;
+  line-height: 48px;
+}
+
+span:hover {
+  padding-bottom: 12px;
+  border-bottom: 10px solid $gray;
+  line-height: 48px;
+}
+
+
+a {
+  text-decoration: none;
+  color: $dark-gray;
+}
+
+.motivation {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: calc(1500px -40px);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  h2  {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    color: $dark-gray;
+
+  }
+}
+
+.work + .explanation {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) { 
+  .work {
+    height: auto;
+    padding: 50px 0;
+  }
+}

@@ -1,0 +1,29 @@
+.video {
+    background-color: $gold-lighter;
+
+    .instagram {
+        width: 650px;
+        z-index: 2;
+    }
+
+    video {
+        position: absolute;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .video {
+        background-color: $gold-lighter;
+    
+        .instagram {
+            width: 450px;
+            z-index: 2;
+        }
+    
+        video {
+            position: absolute;
+            width: 300px;
+        }
+    }
+}
