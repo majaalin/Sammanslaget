@@ -7,7 +7,6 @@ main {
     .hero {
       img {
         width: 100vw;
-        max-width: calc(1500px - 40px);
         height: 100vh;
         object-fit: cover;
       }

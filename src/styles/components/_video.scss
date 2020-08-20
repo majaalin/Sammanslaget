@@ -1,5 +1,4 @@
 .instagram-wrapper {
-    background-color: $gold-lighter;
 
     .instagram {
         width: 650px;
@@ -7,11 +6,9 @@
     }
 
     video {
-        margin-top: 29px;
-        width: 349px;
-        height: 349px;
+        width: 400px;
         object-fit: cover;
-        right: 170px;
+
         z-index: 1;
     }
 
@@ -25,7 +22,6 @@
 @media screen and (max-width: 1366px) { 
     .instagram-wrapper {
         padding-top: 500px;
-        background-color: $gold-lighter;
         flex-direction: column;
     
         .instagram {
@@ -36,13 +32,6 @@
 
         h1 {
             padding: 40px 0 ;
-        }
-    
-        video {
-            position: absolute;
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
         }
 
         .instagram-image {
