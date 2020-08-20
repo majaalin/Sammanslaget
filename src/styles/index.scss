@@ -101,6 +101,10 @@ a {
   display: none;
 }
 
+.text {
+  display: none;
+}
+
 @media screen and (max-width: 1366px) { 
 
   html, body {
@@ -147,6 +151,13 @@ a {
       margin-bottom: 20px;
     }
 
+  }
+
+  .text {
+    display: block;
+    text-align: center;
+    color: $red;
+    text-decoration: underline;
   }
 }
 
