@@ -1,10 +1,10 @@
-.flip-card {
+.main-image {
     cursor: zoom-in;
     background-color: transparent;
     width: 450px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 
-    .test {
+    .image {
         height: 100%;
         width: 100%;
         transition: all 0.8s;
@@ -39,13 +39,13 @@
 
   @media screen and (max-width: 1366px) { 
 
-.flip-card {
+.main-image {
   cursor: zoom-in;
   background-color: transparent;
   width: 450px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 
-  .test {
+  .image {
       height: 100%;
       width: 100%;
       transition: all 0.8s;
