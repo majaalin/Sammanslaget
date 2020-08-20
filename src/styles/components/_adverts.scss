@@ -18,10 +18,12 @@
   .bibliotek {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 633.13px;
   
     img {
       width: 100px;
-      margin: 20px 50px;
+      margin: 10px 10px;
       cursor: pointer;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     }
@@ -33,4 +35,43 @@
   
   .show {
     display: block;
+  }
+
+  @media screen and (max-width: 1366px) { 
+
+.flip-card {
+  cursor: zoom-in;
+  background-color: transparent;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+
+  .test {
+      height: 100%;
+      width: 100%;
+      transition: all 0.8s;
+    }
+}
+
+*:focus {
+  outline: none;
+}
+
+.bibliotek {
+  display: block;
+  height: 633.13px;
+
+  img {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  }
+}
+
+.remove {
+  opacity: 0.2;
+}
+
+.show {
+  display: block;
+}
+
   }

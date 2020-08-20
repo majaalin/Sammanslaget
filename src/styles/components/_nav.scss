@@ -48,14 +48,26 @@ nav {
         }
     }
 }
-@media screen and (max-width: 900px) { 
-        nav {
-            .menu, .about {
-                display: none;
-            }
+@media screen and (max-width: 1366px) { 
 
-            .hamburger {
-                display: block;
+
+    nav {
+    
+        div {
+    
+        .menu {
+            display: none;
+    
+            li {
+                    color: $dark-gray;
+                    font-size: 16px;
+                    font-weight: 600;
+                    width: auto;
+                    position: relative;
+                    padding: 0;
+                    margin: 20px;
+                  }
+            }
             }
         }
     }

@@ -1,18 +1,22 @@
 .explanation {
     height: auto;
     width: 100vw;
-    max-width: 1500px;
-    justify-content: space-around;
+    max-width: calc(1500px -40px);
+    justify-content: space-between;
 
     .explanation-wrapper:hover {
         transform:scale(1.02);
     }
+
+    .explanation-wrapper:nth-child(3) {
+        margin: 0 40px;
+    }
    
     .explanation-wrapper {
-        width: 25%;
         background-color: white;
         border-radius: 3px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+        margin: 0 20px;
 
         img {
             max-width: 100%;
@@ -36,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 1366px) { 
     .explanation {
         height: auto;
         width: 100vw;

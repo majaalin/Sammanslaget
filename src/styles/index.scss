@@ -72,6 +72,16 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
+
+  h1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #222222;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+  }
 }
 
 .work + .explanation {
@@ -82,9 +92,46 @@ a {
   display: block;
 }
 
-@media screen and (max-width: 900px) { 
+.padding {
+  padding: 20px;
+  visibility: hidden;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1366px) { 
+
+  html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  }
   .work {
     height: auto;
     padding: 50px 0;
+
+    h1 {
+      margin: 0 auto;
+    }
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    img {
+      margin: 20px 0;
+    }
+
   }
 }

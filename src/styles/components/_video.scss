@@ -8,22 +8,26 @@
 
     video {
         position: absolute;
-        width: 550px;
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
     }
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 1366px) { 
     .video {
         background-color: $gold-lighter;
     
         .instagram {
-            width: 450px;
+            width: 568px;
             z-index: 2;
         }
     
         video {
             position: absolute;
-            width: 300px;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
         }
     }
 }
