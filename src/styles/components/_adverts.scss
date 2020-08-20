@@ -3,12 +3,18 @@
     background-color: transparent;
     width: 450px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: all 0.5 ease;
 
     .image {
         height: 100%;
         width: 100%;
         transition: all 0.8s;
       }
+  }
+
+  .main-image:active {
+    transform: scale(1.5);
+    z-index: 50;
   }
   
   *:focus {
