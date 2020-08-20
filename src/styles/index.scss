@@ -114,7 +114,9 @@ a {
     padding: 50px 0;
 
     h1 {
-      margin: 0 auto;
+      width: 100vw;
+      margin: 0;
+      font-size: 32px;
     }
   }
 
@@ -128,10 +130,23 @@ a {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    padding-bottom: 40px;
 
     img {
       margin: 20px 0;
+      width: 80vw;
+      height: auto;
+    }
+
+    h1 {
+      text-align: left;
+      width: calc(100vw - 40px);
+      color: #222;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
     }
 
   }
 }
+

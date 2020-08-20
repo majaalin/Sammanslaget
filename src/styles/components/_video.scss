@@ -16,11 +16,17 @@
 
 @media screen and (max-width: 1366px) { 
     .video {
+        padding-top: 500px;
         background-color: $gold-lighter;
     
         .instagram {
             width: 568px;
             z-index: 2;
+            padding: 90px 0;
+        }
+
+        h1 {
+            padding: 40px 0 ;
         }
     
         video {
