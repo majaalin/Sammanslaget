@@ -4,13 +4,13 @@ main {
     justify-content: center;
     width: 100vw;
 
-    video {
-        width: 100vw;
+    .hero {
+      img {
+        width: 100vw
+        ;
         height: 100vh;
-        object-fit: cover;
-        max-width: calc(1500px -40px);
-        filter: blur(20px);
       }
+    }
 
       .video-wrapper {
         position: absolute;
