@@ -18,11 +18,11 @@ affisch.forEach((element) =>
   })
 );
 
-links.forEach((element) =>
-  element.addEventListener('click', (event) => {
-    links.forEach((element) => {
-      element.classList.remove('active');
-    });
-    element.classList.add('active');
-  })
-);
+// links.forEach((element) =>
+//   element.addEventListener('click', (event) => {
+//     links.forEach((element) => {
+//       element.classList.remove('active');
+//     });
+//     element.classList.add('active');
+//   })
+// );
