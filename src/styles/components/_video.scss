@@ -7,15 +7,18 @@
     }
 
     video {
-        position: absolute;
-        width: 280px;
-        height: 300px;
+        margin-top: 29px;
+        width: 349px;
+        height: 349px;
         object-fit: cover;
+        right: 170px;
+        z-index: 1;
     }
 
     .instagram-image {
         height: 80vh;
         padding: 0 20px;
+        z-index: 2;
     }
 }
 
