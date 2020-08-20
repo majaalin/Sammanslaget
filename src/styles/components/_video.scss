@@ -23,6 +23,7 @@
     .instagram-wrapper {
         padding-top: 500px;
         background-color: $gold-lighter;
+        flex-direction: column;
     
         .instagram {
             width: 568px;
@@ -39,6 +40,15 @@
             width: 250px;
             height: 250px;
             object-fit: cover;
+        }
+
+        .instagram-image {
+            height: 80vh;
+            padding: 20px 0;
+        }
+
+        .instagram-image:first-of-type {
+            margin-top: 90px;
         }
     }
 }
