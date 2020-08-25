@@ -4,6 +4,7 @@ import postcss from 'rollup-plugin-postcss';
 import postcssNormalize from 'postcss-normalize';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
+import nodePolyfills from 'rollup-plugin-node-polyfills';
 
 const isProduction = process.env.NODE_ENV === 'production';
 const isDevelopment = isProduction === false;
@@ -15,6 +16,7 @@ export default {
     format: 'iife',
   },
   plugins: [
+    nodePolyfills(),
     postcss({
       extract: true,
       sourceMap: isDevelopment,

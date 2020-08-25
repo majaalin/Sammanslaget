@@ -11,57 +11,8 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: white;
-}
-
-.button-wrapper {
-  background-color: $red;
-  border-radius: 3px;
-  margin: 20px 25px;
-  padding: 10px 40px;
-}
-
-p {
-  color: white;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.logo {
-  width: 200px;
-}
-
-span {
-  padding-bottom: 12px;
-  border-bottom: 10px solid transparent;
-  line-height: 48px;
-}
-
-.active, span:hover {
-  padding-bottom: 12px;
-  border-bottom: 10px solid $gray;
-  line-height: 48px;
-}
-
-.ancor {
-  position: absolute;
-  z-index: -1;
-}
-
-
-a {
-  text-decoration: none;
-  color: $dark-gray;
-}
-
-.motivation {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+*:focus {
+  outline: none;
 }
 
 .page {
@@ -84,15 +35,7 @@ a {
   }
 }
 
-.page + .explanation {
-  justify-content: space-around;
-}
-
-.page + .maja {
-  display: block;
-}
-
-.padding {
+.anchor {
   padding: 20px;
   visibility: hidden;
 }
@@ -101,11 +44,7 @@ a {
   display: none;
 }
 
-.text {
-  display: none;
-}
-
-@media screen and (max-width: 1366px) { 
+@media screen and (max-width: 1000px) { 
 
   html, body {
     width: 100%;
@@ -113,6 +52,7 @@ a {
     padding: 0px;
     overflow-x: hidden; 
   }
+
   .page {
     height: auto;
     padding: 50px 0;
@@ -150,14 +90,6 @@ a {
       letter-spacing: 1.5px;
       margin-bottom: 20px;
     }
-
-  }
-
-  .text {
-    display: block;
-    text-align: center;
-    color: $red;
-    text-decoration: underline;
   }
 }
 

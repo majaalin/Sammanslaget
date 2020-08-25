@@ -26,5 +26,8 @@
     ">0.25%",
     "not ie 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
 }
